@@ -1,0 +1,129 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 20 Oct 2024 07:06:07 at https://carpentersshelter.org +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://carpentersshelter.org -O1 "C:\My Web Sites\ShelterProject" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+07:07:35	Error: 	"Forbidden" (403) at link https://carpentersshelter.org/xmlrpc.php?rsd (from https://carpentersshelter.org/)
+07:11:36	Error: 	"Bad Request" (400) at link https://carpentersshelter.org/wp-admin/admin-ajax.php (from https://carpentersshelter.org/)
+07:11:36	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=636
+07:11:36	Warning: 	File has moved from https://carpentersshelter.org/?p=636 to https://carpentersshelter.org/about/
+07:11:36	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=2721
+07:11:36	Warning: 	File has moved from https://carpentersshelter.org/?p=2721 to https://carpentersshelter.org/new-heights/
+07:11:36	Error: 	"Not Found" (404) at link https://carpentersshelter.org/wp-content/uploads/2018/07/2018_07_01_TheZebra_Relocation.pdf (from https://carpentersshelter.org/new-heights/)
+07:11:36	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=940
+07:11:36	Warning: 	File has moved from https://carpentersshelter.org/?p=940 to https://carpentersshelter.org/board-of-directors/
+07:11:36	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=1679
+07:11:36	Warning: 	File has moved from https://carpentersshelter.org/?p=1679 to https://carpentersshelter.org/staff-members/
+07:11:36	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=2629
+07:11:36	Warning: 	File has moved from https://carpentersshelter.org/?p=2629 to https://carpentersshelter.org/stories/
+07:12:07	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=1561
+07:12:07	Warning: 	File has moved from https://carpentersshelter.org/?p=1561 to https://carpentersshelter.org/careers/
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=2649
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=2649 to https://carpentersshelter.org/events/
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=2121
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=2121 to https://carpentersshelter.org/cook-off/
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=1592
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=1592 to https://carpentersshelter.org/financials-annual-reports/
+07:12:12	Error: 	"Not Found" (404) at link https://carpentersshelter.org/wp-content/uploads/2024/04/85535_Carpenters_Shelter_Annual_Report_New_150.pdf (from https://carpentersshelter.org/financials-annual-reports/)
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=1650
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=1650 to https://carpentersshelter.org/faqs/
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=1678
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=1678 to https://carpentersshelter.org/news/
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=1663
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=1663 to https://carpentersshelter.org/racial-equity/
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=939
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=939 to https://carpentersshelter.org/services/
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=6907
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=6907 to https://carpentersshelter.org/residential-emergency-shelters/
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=3854
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=3854 to https://carpentersshelter.org/rapid-re-housing/
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=3928
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=3928 to https://carpentersshelter.org/davids-place/
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=3945
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=3945 to https://carpentersshelter.org/winter-shelter/
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=3970
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=3970 to https://carpentersshelter.org/case-management/
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=4023
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=4023 to https://carpentersshelter.org/education-and-employment/
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=4040
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=4040 to https://carpentersshelter.org/family-services/
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=4057
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=4057 to https://carpentersshelter.org/carpenters-clinic/
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=8225
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=8225 to https://carpentersshelter.org/permanent-support-housing/
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=2720
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=2720 to https://carpentersshelter.org/ways-to-give/
+07:12:12	Error: 	"Not Found" (404) at link https://carpentersshelter.org/wp-content/uploads/2018/01/Donor-Privacy-Policy.pdf (from https://carpentersshelter.org/ways-to-give/)
+07:12:12	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=3565
+07:12:12	Warning: 	File has moved from https://carpentersshelter.org/?p=3565 to https://carpentersshelter.org/monthly-giving/
+07:12:13	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=3577
+07:12:13	Warning: 	File has moved from https://carpentersshelter.org/?p=3577 to https://carpentersshelter.org/workplace-corporate-giving/
+07:12:13	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=3606
+07:12:13	Warning: 	File has moved from https://carpentersshelter.org/?p=3606 to https://carpentersshelter.org/stock-gifts/
+07:12:13	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=3622
+07:12:13	Warning: 	File has moved from https://carpentersshelter.org/?p=3622 to https://carpentersshelter.org/planned-giving/
+07:12:13	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=3632
+07:12:13	Warning: 	File has moved from https://carpentersshelter.org/?p=3632 to https://carpentersshelter.org/in-kind/
+07:12:13	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=8677
+07:12:13	Warning: 	File has moved from https://carpentersshelter.org/?p=8677 to https://carpentersshelter.org/campaigns/
+07:12:13	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=1859
+07:12:13	Warning: 	File has moved from https://carpentersshelter.org/?p=1859 to https://carpentersshelter.org/volunteer/
+07:12:32	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=941
+07:12:32	Warning: 	File has moved from https://carpentersshelter.org/?p=941 to https://carpentersshelter.org/contact-us/
+07:12:32	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=7771
+07:12:32	Warning: 	File has moved from https://carpentersshelter.org/?p=7771 to https://carpentersshelter.org/sign-up/
+07:12:32	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=3818
+07:12:32	Warning: 	File has moved from https://carpentersshelter.org/?p=3818 to https://carpentersshelter.org/residential-shelters/
+07:12:35	Error: 	"Not Found" (404) at link https://carpentersshelter.org/our_stories/jeff-2/feed/ (from https://carpentersshelter.org/our_stories/jeff-2/)
+07:12:35	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=6850
+07:12:35	Warning: 	File has moved from https://carpentersshelter.org/?p=6850 to https://carpentersshelter.org/our_stories/jeff-2/
+07:12:35	Error: 	"Forbidden" (403) at link https://carpentersshelter.org/xmlrpc.php (from https://carpentersshelter.org/our_stories/jeff-2/)
+07:12:35	Error: 	"Not Found" (404) at link https://carpentersshelter.org/our_stories/linda/feed/ (from https://carpentersshelter.org/our_stories/linda/)
+07:12:35	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=6854
+07:12:35	Warning: 	File has moved from https://carpentersshelter.org/?p=6854 to https://carpentersshelter.org/our_stories/linda/
+07:12:35	Error: 	"Not Found" (404) at link https://carpentersshelter.org/our_stories/sandy/feed/ (from https://carpentersshelter.org/our_stories/sandy/)
+07:12:35	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=6860
+07:12:35	Warning: 	File has moved from https://carpentersshelter.org/?p=6860 to https://carpentersshelter.org/our_stories/sandy/
+07:12:35	Error: 	"Not Found" (404) at link https://carpentersshelter.org/our_stories/jada/feed/ (from https://carpentersshelter.org/our_stories/jada/)
+07:12:35	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=6864
+07:12:35	Warning: 	File has moved from https://carpentersshelter.org/?p=6864 to https://carpentersshelter.org/our_stories/jada/
+07:12:35	Error: 	"Not Found" (404) at link https://carpentersshelter.org/our_stories/violet/feed/ (from https://carpentersshelter.org/our_stories/violet/)
+07:12:35	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=6866
+07:12:35	Warning: 	File has moved from https://carpentersshelter.org/?p=6866 to https://carpentersshelter.org/our_stories/violet/
+07:12:35	Error: 	"Not Found" (404) at link https://carpentersshelter.org/our_stories/viviane/feed/ (from https://carpentersshelter.org/our_stories/viviane/)
+07:12:35	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=6870
+07:12:35	Warning: 	File has moved from https://carpentersshelter.org/?p=6870 to https://carpentersshelter.org/our_stories/viviane/
+07:12:54	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=10049
+07:12:54	Warning: 	File has moved from https://carpentersshelter.org/?p=10049 to https://carpentersshelter.org/jobs/kitchen-coordinator/
+07:12:54	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=7947
+07:12:54	Warning: 	File has moved from https://carpentersshelter.org/?p=7947 to https://carpentersshelter.org/kitchen/
+07:12:54	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=7955
+07:12:54	Warning: 	File has moved from https://carpentersshelter.org/?p=7955 to https://carpentersshelter.org/front-desk/
+07:12:54	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=7967
+07:12:54	Warning: 	File has moved from https://carpentersshelter.org/?p=7967 to https://carpentersshelter.org/professional-development/
+07:12:54	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=7975
+07:12:54	Warning: 	File has moved from https://carpentersshelter.org/?p=7975 to https://carpentersshelter.org/childrens-hour/
+07:12:54	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=7983
+07:12:54	Warning: 	File has moved from https://carpentersshelter.org/?p=7983 to https://carpentersshelter.org/day-of-service/
+07:12:54	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=7992
+07:12:54	Warning: 	File has moved from https://carpentersshelter.org/?p=7992 to https://carpentersshelter.org/youth-service/
+07:12:54	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=4995
+07:12:54	Warning: 	File has moved from https://carpentersshelter.org/?p=4995 to https://carpentersshelter.org/homeless-services-assessment-center/
+07:12:54	Error: 	"Not Found" (404) at link https://carpentersshelter.org/our_stories/robert/feed/ (from https://carpentersshelter.org/our_stories/robert/)
+07:12:54	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=6872
+07:12:54	Warning: 	File has moved from https://carpentersshelter.org/?p=6872 to https://carpentersshelter.org/our_stories/robert/
+07:12:54	Error: 	"Not Found" (404) at link https://carpentersshelter.org/our_stories/omar/feed/ (from https://carpentersshelter.org/our_stories/omar/)
+07:12:54	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=6874
+07:12:54	Warning: 	File has moved from https://carpentersshelter.org/?p=6874 to https://carpentersshelter.org/our_stories/omar/
+07:12:54	Error: 	"Not Found" (404) at link https://carpentersshelter.org/our_stories/brittany/feed/ (from https://carpentersshelter.org/our_stories/brittany/)
+07:12:54	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=6877
+07:12:54	Warning: 	File has moved from https://carpentersshelter.org/?p=6877 to https://carpentersshelter.org/our_stories/brittany/
+07:12:54	Error: 	"Not Found" (404) at link https://carpentersshelter.org/our_stories/roberta/feed/ (from https://carpentersshelter.org/our_stories/roberta/)
+07:12:54	Warning: 	Moved Permanently for https://carpentersshelter.org/?p=6883
+07:12:54	Warning: 	File has moved from https://carpentersshelter.org/?p=6883 to https://carpentersshelter.org/our_stories/roberta/
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 47 seconds : 633 links scanned, 565 files written (181784059 bytes overall) [167121824 bytes received at 410618 bytes/sec], 86239584 bytes transferred using HTTP compression in 548 files, ratio 79%, 31.8 requests per connection
+(16 errors, 102 warnings, 0 messages)
