@@ -4,11 +4,11 @@
 <!-- Mirrored from carpentersshelter.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Oct 2024 11:06:08 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
+	
 <meta charset="UTF-8">
 <script>
 var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});
 </script>
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	 <link rel="profile" href="https://gmpg.org/xfn/11"> 
 	 <title></title>
@@ -18,6 +18,24 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 <link rel='dns-prefetch' href='http://maxcdn.bootstrapcdn.com/' />
 <link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="feed/index.html" />
 <link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="comments/feed/index.html" />
+    <style>
+        #suggestions {
+            border: 1px solid #ddd;
+            max-width: 200px;
+            padding: 10px;
+            display: none;
+            background-color: #f9f9f9;
+            position: absolute;
+            z-index: 1;
+        }
+        #suggestions p {
+            margin: 5px 0;
+            cursor: pointer;
+        }
+        #suggestions p:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
 <script>
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/carpentersshelter.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.2"}};
 /*! This file is auto-generated */
@@ -40,6 +58,26 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 		vertical-align: -0.1em !important;
 		background: none !important;
 		padding: 0 !important;
+	}
+</style>
+<title>Search Page with Suggestions</title>
+<script src="search.js"></script> <!-- Link to the external JavaScript file -->
+<style>
+	#suggestions {
+		border: 1px solid #ddd;
+		width: 214px; /* Matches the width of the input */
+		padding: 5px;
+		background-color: #f9f9f9;
+		position: relative;
+		z-index: 1;
+		display: none;
+	}
+	#suggestions p {
+		margin: 5px 0;
+		cursor: pointer;
+	}
+	#suggestions p:hover {
+		background-color: #e0e0e0;
 	}
 </style>
 <style id='global-styles-inline-css'>
@@ -204,6 +242,46 @@ class="hfeed site" id="page">
 </div></div>		</div>
 												<div class="site-header-above-section-left-center site-header-section ast-flex ast-grid-left-center-section">
 																			</div>
+												    <!-- Search bar code -->
+													<div style="display: inline-block; margin: 0 15px;">
+														<form onsubmit="return redirectToGoogle();">
+															<input type="text" id="searchQuery" placeholder="Enter search term..." oninput="showSuggestions()" style="padding: 5px; width: 200px;">
+															<input type="submit" value="Search" style="padding: 5px;">
+														</form>
+														<div id="suggestions">
+															<p onclick="setQuery('homeless shelters near me')">homeless shelters near me</p>
+															<p onclick="setQuery('food banks for the homeless')">food banks for the homeless</p>
+															<p onclick="setQuery('emergency housing support')">emergency housing support</p>
+															<p onclick="setQuery('mental health services for homeless')">mental health services for homeless</p>
+															<p onclick="setQuery('job training programs for homeless')">job training programs for homeless</p>
+														</div>
+													
+														<script>
+															function showSuggestions() {
+																const query = document.getElementById('searchQuery').value.toLowerCase();
+																const suggestionsBox = document.getElementById('suggestions');
+																
+																// Display suggestions only if the input is not empty
+																if (query) {
+																	suggestionsBox.style.display = 'block';
+																} else {
+																	suggestionsBox.style.display = 'none';
+																}
+															}
+													
+															function setQuery(query) {
+																document.getElementById('searchQuery').value = query;
+																document.getElementById('suggestions').style.display = 'none';
+															}
+													
+															// Hide suggestions when clicking outside
+															document.addEventListener('click', function(event) {
+																if (!event.target.closest('#searchQuery') && !event.target.closest('#suggestions')) {
+																	document.getElementById('suggestions').style.display = 'none';
+																}
+															});
+														</script>
+													</div>
 															</div>
 																			<div class="site-header-above-section-center site-header-section ast-flex ast-grid-section-center">
 											<div class="ast-builder-layout-element ast-flex site-header-focus-item ast-header-html-2" data-section="section-hb-html-2">
