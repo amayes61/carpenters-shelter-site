@@ -15,3 +15,4 @@ This project is a web-based search tool for the Carpenter's Shelter site. The go
    cd carpenters-shelter-site
 2. Then Change Directories into the location where you downloaded the GIT.
 3. Then go to the following folder carpentersshelter.org and open the index.html in a web browser.
+4. The location of the index.html will be C:\<Location-of-CODE>\ShelterProject\carpentersshelter.org\Index.html
